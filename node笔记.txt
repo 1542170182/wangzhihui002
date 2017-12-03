@@ -1,0 +1,12 @@
+node.js 是一个单线程，后台服务语言，  传输速度快，能实现异步操作；
+用http 搭建一个简单的服务器，
+http 是一个系统模块。
+引入 http
+在创建 Fs 模块  用来读解析文件
+const http=required('http');
+
+然后通过 createServer 搭建服务器；里面有两个 参数  req request 请求数据  res responese 响应数据
+设定服务器的坚听端口号；
+
+
+
